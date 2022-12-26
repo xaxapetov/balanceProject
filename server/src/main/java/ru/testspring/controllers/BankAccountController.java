@@ -11,7 +11,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.*;
 import ru.testspring.exceptions.BankAccountNotFoundException;
 import ru.testspring.models.dto.ResponseBankAccountDTO;
-import ru.testspring.services.BankAccountService;
+import ru.testspring.services.BalanceService;
 
 @RestController
 @RequestMapping("api/balance")
@@ -19,7 +19,7 @@ import ru.testspring.services.BankAccountService;
 @Slf4j
 public class BankAccountController {
 
-    private final BankAccountService BankAccountService;
+    private final BalanceService BankAccountService;
     private final MetricRegistry metricRegistry;
     private final int MILLIS_TO_MINUTE_RATE = 60_000;
     private final String GET_BALANCE_METRIC = "GET_BALANCE";

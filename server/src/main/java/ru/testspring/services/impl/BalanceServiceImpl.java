@@ -8,17 +8,17 @@ import org.springframework.retry.annotation.Retryable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.testspring.repositories.BankAccountRepository;
-import ru.testspring.services.BankAccountService;
+import ru.testspring.services.BalanceService;
 
 import java.util.Optional;
 
 @Service
 @AllArgsConstructor
 @Slf4j
-public class BankAccountServiceImpl implements BankAccountService {
+public class BalanceServiceImpl implements BalanceService {
 
     private final BankAccountRepository bankAccountRepository;
-    private final BankAccountCacheUpdaterServiceImpl bankAccountCacheUpdaterService;
+    private final BalanceServiceCacheUpdaterServiceImpl bankAccountCacheUpdaterService;
 
     @Override
     @Cacheable(value = "cacheBalance", key = "#id")

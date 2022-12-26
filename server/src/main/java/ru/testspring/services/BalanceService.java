@@ -5,7 +5,7 @@ import java.util.Optional;
 /**
  * Интерфейс сервиса для работы с банковским счётом содержит два метода
  **/
-public interface BankAccountService {
+public interface BalanceService {
     /**
      *  Получение баланса
      *

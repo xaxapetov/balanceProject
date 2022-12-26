@@ -18,7 +18,7 @@ import java.util.Optional;
 @Service
 @AllArgsConstructor
 @Slf4j
-public class BankAccountCacheUpdaterServiceImpl {
+public class BalanceServiceCacheUpdaterServiceImpl {
 
     private final BankAccountRepository bankAccountRepository;
 
