@@ -1,0 +1,10 @@
+INSERT INTO bank_account (balance) VALUES ( 0 );
+INSERT INTO bank_account (balance) VALUES ( 0 );
+INSERT INTO bank_account (balance) VALUES ( 0 );
+INSERT INTO bank_account (balance) VALUES ( 0 );
+INSERT INTO bank_account (balance) VALUES ( 0 );
+INSERT INTO bank_account (balance) VALUES ( 0 );
+INSERT INTO bank_account (balance) VALUES ( 0 );
+INSERT INTO bank_account (balance) VALUES ( 0 );
+INSERT INTO bank_account (balance) VALUES ( 0 );
+INSERT INTO bank_account (balance) VALUES ( 0 );
